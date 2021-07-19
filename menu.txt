@@ -3,3 +3,5 @@ Donuts 4.99 1500cal
 
 Mocha 		3.15 	200 cal
 Expresso 	3.25	250 cal
+
+Ice Coffee	2.88	300 cal
