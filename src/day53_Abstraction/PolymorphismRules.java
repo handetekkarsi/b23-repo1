@@ -30,7 +30,7 @@ public class PolymorphismRules {
 
         System.out.println("--------------------------------------------");
 
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver =  new ChromeDriver();
 
         driver.get("www.amazon.com");
 
@@ -40,7 +40,9 @@ public class PolymorphismRules {
         animal.drink("Milk");
         animal.eat("Dog Food");
         animal.sleep();
-     //  animal.bark();
+       // animal.bark();
+
+
 
 
     }
