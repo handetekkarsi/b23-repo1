@@ -132,6 +132,7 @@ public class WarmUpTask {
         System.out.println("nameOfDevWithMinSalary = " + nameOfDevWithMinSalary);
 
 
+        System.out.println("Cybertek".toUpperCase().toUpperCase().substring(0, 5).replace("e", "a"));
 
 
     }
