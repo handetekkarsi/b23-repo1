@@ -4,12 +4,12 @@ package day54_Recap;
 import day45_Inheritance.employeeTask.Developer;
 import day45_Inheritance.employeeTask.Employee;
 import day45_Inheritance.employeeTask.Tester;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class WarmUpTask {
     public static void main(String[] args) {
+
         Employee[] employees = {
                 new Tester("John", 'M', 32, 11, "QA", 110000),
                 new Developer("Selda", 'F', 27, 12, "Java Developer", 128000),
@@ -38,9 +38,9 @@ public class WarmUpTask {
         List<Developer> developers = new ArrayList<>();
 
 
+        // which tester has the maximum salary?
 
-
-
+        // which developer has the maximum salary?
 
 
 
