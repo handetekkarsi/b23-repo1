@@ -99,12 +99,31 @@ OOP: design pattern of the applications in organized and modular way
 						List
 
 
+	Polymorphism (WebDriverFactory): behaviors of the objects in many forms
+
+
+
+
+		WebDriverFactory
+
+			WebDriver getDriver(name){
+				expect to return:
+					1. Chrome
+					2. FireFox
+					3. Opera
+					4. Safari
+			}
+
+
+			WebDriver driver = WebDriverFactory.getDriver(name);
+			( (TakeScreenShot)driver ).takeScreenShot();
+
 
 
 polymorphism short quiz due by 11:45 am
 
 
-
+come back at 2:10 pm
 
 
 
