@@ -60,7 +60,45 @@ OOP: design pattern of the applications in organized and modular way
 
 
 
-	Abstraction:
+	Abstraction (TestBase): focus on important things without worrying about the details
+
+				abstract method: method without the body
+							meant to be overriden
+
+				2 ways:
+					1. abstract class: not concrete ==> no objects, meant to be parent
+
+								class can extends one abstract class
+
+					2. interface: not a class. meant to be implemented
+
+									PUBLIC is the only access modifier we can have
+
+							class can implement multiple interfaces
+
+							can not have:
+								instance variables
+								instance methods
+								constructor
+								blocks
+
+							can have:
+								final static variable
+								abstract method
+								static method
+								default method
+
+
+
+				WebDriver:
+
+						get(URL);
+
+				Interfaces that I have used:
+						WebDriver, WebElement, TakeScreenShot, JavaScriptExecuter...
+						List
+
+
 
 
 polymorphism short quiz due by 11:45 am
