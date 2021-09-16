@@ -48,10 +48,10 @@ OOP: design pattern of the applications in organized and modular way
 					quit
 
 
-
 			TestClass1 extends TestBase
 
 				@Test (verify the title)
+					driver.getTitle
 
 
 			TestClass2 extends TestBase
@@ -103,7 +103,6 @@ OOP: design pattern of the applications in organized and modular way
 
 
 
-
 		WebDriverFactory
 
 			WebDriver getDriver(name){
@@ -117,6 +116,7 @@ OOP: design pattern of the applications in organized and modular way
 
 			WebDriver driver = WebDriverFactory.getDriver(name);
 			( (TakeScreenShot)driver ).takeScreenShot();
+			( (JavaScriptExecuter)driver ).executerScript();
 
 
 
@@ -126,6 +126,7 @@ polymorphism short quiz due by 11:45 am
 come back at 2:10 pm
 
 
+A > B > C
 
 
 

@@ -27,6 +27,9 @@ public class Polymorphism {
 
        // System.out.println( ((Rectangle)obj2).getW() );
 
+        Circle c1 = new Circle(5);
+
+       // Rectangle r1 = (Rectangle) c1;
 
 
 
