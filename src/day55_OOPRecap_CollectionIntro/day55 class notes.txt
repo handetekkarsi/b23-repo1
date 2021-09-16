@@ -145,32 +145,26 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 	Collection (I): Dynamic Sized
 					supports non-primitives ONLY
+
 			extended by List, Set, Queue
 
 
-			List (I): has index numbers,
+			List (I): has index numbers, accept duplicates
 
 
-			Set (I): does not have index
+			Set (I): does not have index, does not accept duplicates
 
 
-			Queue (I): does not have index
-
-
-
+			Queue (I): does not have index, accept duplicates
 
 
 
-
-
-
-
-
-
-
-
-
-
+Remaining topics:
+	Collection
+	Map
+	Enum
+	Functional Interface & Lambda
+	Stream
 
 
 
