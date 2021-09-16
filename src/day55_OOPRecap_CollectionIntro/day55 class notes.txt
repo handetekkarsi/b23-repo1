@@ -21,7 +21,7 @@ OOP: design pattern of the applications in organized and modular way
 						 IF PRIVATE DATA IS FINAL, WE CAN NOT GENERATE SETTER
 
 
- 	Inheritance (TestBase) : building parent & child relationships between classes
+ 	Inheritance (TestBase & BasePage) : building parent & child relationships between classes
 
  						child class: inherits all the variables & methods from parent class
 
@@ -35,32 +35,32 @@ OOP: design pattern of the applications in organized and modular way
 
 
 
+	 		abstract TestBase
+	 				driver
+				setUp (@BeforeEach):
+					setup driver
+					open the browser
+					implicitwait
+					maximize browser
+					
 
-
- 		abstract TestBase
- 				driver
-			setUp (@BeforeEach):
-				setup driver
-				open the browser
-				implicitwait
-				maximize browser
-				LogIn
-
-			tearDown (@AfterEach):
-				quit
+				tearDown (@AfterEach):
+					quit
 
 
 
-		TestClass1 extends TestBase
+			TestClass1 extends TestBase
 
-			@Test (verify the title)
-
-
-		TestClass2 extends TestBase
-
-		TestClass3 extends TestBase
+				@Test (verify the title)
 
 
+			TestClass2 extends TestBase
+
+			TestClass3 extends TestBase
+
+
+
+	Abstraction:
 
 
 polymorphism short quiz due by 11:45 am
