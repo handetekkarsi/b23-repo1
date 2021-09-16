@@ -126,7 +126,58 @@ polymorphism short quiz due by 11:45 am
 come back at 2:10 pm
 
 
-A > B > C
+
+Data Structures: work with data
+
+		Array
+		Collection
+		Map
+
+
+Array: size is fixed
+	  can be multi-dimensional 
+	  supports both primitive and non-primitives
+
+
+
+
+Collection framework: consists of multiple interfaces, each interface is implembnted by classes
+
+	Collection (I): Dynamic Sized
+					supports non-primitives ONLY
+			extended by List, Set, Queue
+
+
+			List (I): has index numbers,
+
+
+			Set (I): does not have index
+
+
+			Queue (I): does not have index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
