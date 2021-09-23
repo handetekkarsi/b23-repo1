@@ -72,7 +72,7 @@ multi-thread: two or more threads are being executedwithin the process
 
 multi-tasking: running multiple programs concurrently
 
-concurrently vs paralely:
+concurrently vs parallely:
 	
 		concurrently: 900 * 5 = 4500 seconds
 			chrome browser (process)
@@ -83,7 +83,7 @@ concurrently vs paralely:
 				long time
 
 
-		Paralely: 300 * 5 = 1500 seconds
+		Parallely: 300 * 5 = 1500 seconds
 			chrome Browser (process1)
 				etsy.com (300 test cases)
 
@@ -113,7 +113,7 @@ Iterable: Root Interface of Collection
 						if hasNext() is false==> no object can be accessed
 
 
-				remove()
+				remove(): removes the object
 
 Task:
 	Given:
