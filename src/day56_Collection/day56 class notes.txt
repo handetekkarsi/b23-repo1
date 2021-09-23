@@ -1,0 +1,21 @@
+09/23/2021
+Topic: Collection Continue
+
+Package name: day56_Collection
+
+
+Collection framework: consists of multiple interfaces, each interface is implembnted by classes
+
+	Collection (I): Dynamic Sized
+					supports non-primitives ONLY
+
+			extended by List, Set, Queue
+
+
+			List (I): has index numbers, accept duplicates
+
+
+			Set (I): does not have index, does not accept duplicates
+
+
+			Queue (I): does not have index, accept duplicates
