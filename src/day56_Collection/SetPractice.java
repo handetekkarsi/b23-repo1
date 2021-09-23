@@ -64,6 +64,7 @@ public class SetPractice {
         
         String s = "aaabbcddddeeeee";
         String result = "";
+
         for (String ch : new LinkedHashSet<>(Arrays.asList(s.split("")))) { // ch: non-duplicated characters ==> a b c d e
              result += ch + Collections.frequency( Arrays.asList(s.split("")) ,  ch) ;
         }
