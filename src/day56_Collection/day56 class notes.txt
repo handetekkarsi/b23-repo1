@@ -20,10 +20,12 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 				LinkedList (C): each objects are doublly linked
 								adding & removing are faster (add() & remove())
 
-				Vector (C): is synchronized ==> thread-safety
+				Vector (C): is synchronized ==> thread-safe
 
 
-				Stack (C): 
+				Stack (C): is synchronized ==> thread-safe. LIFO (last in first out)
+
+					pop(): removes the last inserted object from the stack
 
 
 
