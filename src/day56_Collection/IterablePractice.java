@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-public class Iterable {
+public class IterablePractice {
 
     public static void main(String[] args) {
 
