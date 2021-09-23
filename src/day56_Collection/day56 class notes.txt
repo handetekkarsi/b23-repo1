@@ -39,7 +39,16 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 
 
-			Queue (I): does not have index, accept duplicates
+			Queue (I): does not have index, accept duplicates. FIFO (first in first out)
+
+				poll(): removes the first object from the queue, and returns it. FIFO
+
+				PriorityQueue (C): order is random. does not have index number
+
+				ArrayDequeue (C): keeps the same insertion order. does not have index number
+
+				LinkedList (C): keeps the same insertion order, has index number
+
 
 
 synchronized: used for achieving thread safety
