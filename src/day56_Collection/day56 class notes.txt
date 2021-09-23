@@ -31,6 +31,12 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 			Set (I): does not have index, does not accept duplicates
 
+				HashSet (C): order is random.
+
+				LinkedHashSet (C): keeps the insertion order as it is
+
+				TreeSet (C): in sorted order
+
 
 
 			Queue (I): does not have index, accept duplicates
