@@ -31,11 +31,11 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 			Set (I): does not have index, does not accept duplicates
 
-				HashSet (C): order is random.
+				HashSet (C): order is random. accepts null key
 
-				LinkedHashSet (C): keeps the insertion order as it is
+				LinkedHashSet (C): keeps the insertion order as it is. accepts null key
 
-				TreeSet (C): in sorted order
+				TreeSet (C): keeps the sorted order. does not accept null key (nullPointerException will be given)
 
 
 
