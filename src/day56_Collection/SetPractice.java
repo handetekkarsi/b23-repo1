@@ -59,10 +59,18 @@ public class SetPractice {
         System.out.println("---------------------------------------------");
 
         //"aaaaabbbcccc" ===> "a5b3c4"
-        //                    "a b c"
-        //                     5 3 4
+        //                    "abc"
+        //                     534
+        
+        String s = "aaabbcddddeeeee";
+        String result = "";
+        for (String ch : new LinkedHashSet<>(Arrays.asList(s.split("")))) { // ch: non-duplicated characters ==> a b c d e
+             result += ch + Collections.frequency( Arrays.asList(s.split("")) ,  ch) ;
+        }
 
+        System.out.println("result = " + result);
 
+      
 
 
 
