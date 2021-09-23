@@ -14,8 +14,78 @@ Collection framework: consists of multiple interfaces, each interface is implemb
 
 			List (I): has index numbers, accept duplicates
 
+				ArrayList (C): Array Based Class, internally uses array
+								retrieving the data is faster ( get() )
+
+				LinkedList (C): each objects are doublly linked
+								adding & removing are faster (add() & remove())
+
+				Vector (C): is synchronized ==> thread-safety
+
+
+				Stack (C): 
+
+
 
 			Set (I): does not have index, does not accept duplicates
 
 
+
 			Queue (I): does not have index, accept duplicates
+
+
+synchronized: used for achieving thread safety
+			
+			advantage: thread-safe
+			disadvantage: slow
+
+			one thread at a time
+
+
+Thread: subset of a process. A sequence of execution within a process
+		
+		shares all the resources of process
+
+
+Process: execution instance of a program
+		ex: chrome, firefox, sublime, intelliJ...
+
+
+multi-thread: two or more threads are being executedwithin the process
+
+multi-tasking: running multiple programs concurrently
+
+concurrently vs paralely:
+	
+		concurrently: 900 * 5 = 4500 seconds
+			chrome browser (process)
+				tab1: etsy.com (300 test cases)
+				tab2: amazon.com (300 test cases)
+				tab3: ebay.com (300 test cases)
+
+				long time
+
+
+		Paralely: 300 * 5 = 1500 seconds
+			chrome Browser (process1)
+				etsy.com (300 test cases)
+
+			firefox browser (process2)
+				amazon.com (300 test cases)
+
+			safari browser (process3)
+				ebay.com (300 test cases)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
