@@ -96,6 +96,24 @@ concurrently vs paralely:
 
 
 
+Iterable: Root Interface of Collection 
+		Classes that are implementing iterable interface gains the ability to use iterator interface
+
+		Iterator (I):
+			1. allows us to get access to each object
+
+			2. allows us to remove any objects from collection type
+
+
+			methods:
+				hasNext(): checks if there is object. returns boolean
+
+				next():
+						if hasNext() is true ==> can get access to the object
+						if hasNext() is false==> no object can be accessed
+
+
+				remove()
 
 
 
