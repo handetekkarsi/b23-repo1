@@ -49,6 +49,22 @@ public class SetPractice {
 
         System.out.println("--------------------------------------------");
 
+        Integer[] nums = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};
+
+        // returns the fifth element after removing duplicates
+        LinkedHashSet<Integer> linkedHashSet = new LinkedHashSet<>( Arrays.asList(nums));
+        System.out.println(linkedHashSet);
+        System.out.println( new ArrayList<>( linkedHashSet  ).get(4)   );
+
+        System.out.println("---------------------------------------------");
+
+        //"aaaaabbbcccc" ===> "a5b3c4"
+        //                    "a b c"
+        //                     5 3 4
+
+
+
+
 
     }
 
