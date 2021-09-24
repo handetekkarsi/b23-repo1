@@ -21,6 +21,30 @@ public class RemoveDuplicates {
 
         System.out.println(Arrays.toString(nums));
 
+        System.out.println("------------------------------------------------------");
+        String[] students = {"Feruza", "Sabir", "Mucahit", "Ismail"}; //"Esraa"
+
+         ArrayList<String> l = new ArrayList<>(Arrays.asList(students));
+        l.add("Esraa");
+        l.add("Aysu");
+
+
+        // convert Collection to array:
+        students = l.toArray(new String[0]);
+
+        System.out.println( Arrays.toString(students) );
+
+        System.out.println("------------------------------------------------------");
+        Integer[] n ={1,2,3,4,5,6,7,8,9,10};
+
+        ArrayList<Integer> l2 = new ArrayList<>( Arrays.asList(n));
+        l2.removeIf(p -> p%2==0);
+
+        n =l2.toArray(new Integer[0]);
+
+        System.out.println(Arrays.toString(n));
+
+
 
     }
 
