@@ -22,6 +22,7 @@ public class RemoveDuplicates {
         System.out.println(Arrays.toString(nums));
 
         System.out.println("------------------------------------------------------");
+
         String[] students = {"Feruza", "Sabir", "Mucahit", "Ismail"}; //"Esraa"
 
          ArrayList<String> l = new ArrayList<>(Arrays.asList(students));

@@ -12,3 +12,12 @@ warmup tasks:
 
 	3. write a program that can remove the duplicated Integers from a List of Integer
 			Do Not change the insertion order
+
+
+Topics for next week:
+	Map
+	Enum, generics
+
+
+Functional interface & lambda
+Stream (intermidiate operators )
