@@ -68,7 +68,7 @@ Process: execution instance of a program
 		ex: chrome, firefox, sublime, intelliJ...
 
 
-multi-thread: two or more threads are being executedwithin the process
+multi-thread: two or more threads are being executed within the process
 
 multi-tasking: running multiple programs concurrently
 
