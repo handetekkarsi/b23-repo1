@@ -12,11 +12,19 @@ Package name: day58_Maps
 
 
 
-Map: Pairs of Data, accepts key & value
+Map (I): Pairs of Data, accepts key & value
 	 does not support primitives
 	 dynamic sized
 	 key can not be duplicated
 	 there is NO index
+
+	 HashMap (C): order is random. accepts null
+
+	 LinkedHashMap (C): keeps the insertion order. accepts null
+
+	 TreeMap (C): sorted order
+
+	 HashTable (C): is synchronized ==> thread-safe 
 
 
     Methods:
