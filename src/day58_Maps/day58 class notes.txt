@@ -16,6 +16,7 @@ Map: Pairs of Data, accepts key & value
 	 does not support primitives
 	 dynamic sized
 	 key can not be duplicated
+	 there is NO index
 
 
     Methods:
@@ -24,6 +25,18 @@ Map: Pairs of Data, accepts key & value
     	get(key): returns the value of the given key
 
     	remove(key)
+
+    	containsKey()
+    	conatinsValue()
+    	isEmpty()
+    	clear()
+
+    	replace(key, new value)
+
+    	----------------------------------------
+    	keySet(): returns all the keys from the map
+    	values():
+    	entrySet():
 
 
 
