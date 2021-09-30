@@ -69,8 +69,45 @@ public class MapIntro {
         employeeMap.put("Merve,", 122000);
         employeeMap.put("Tamara", 133000);
 
+        // iterate the keys ONLY:
+        for (String eachKey : employeeMap.keySet()) {
+            System.out.println(eachKey+" : " +employeeMap.get(eachKey));
+        }
 
+        System.out.println("-----------------------------------------------");
+        // iterate the values ONLY:
+        for (Integer eachValue : employeeMap.values()) {
+            System.out.println(eachValue);
+        }
 
+        System.out.println("-----------------------------------------------");
+        // iterate the entries (key & value) ONLY:
+
+        for (Map.Entry<String, Integer> eachEntry : employeeMap.entrySet()) {
+           // System.out.println(eachEntry);
+            System.out.println(eachEntry.getKey() +" : "+eachEntry.getValue());
+        }
+
+        System.out.println("---------------------------------");
+        System.out.println(employeeMap);
+
+        System.out.println("-----------------------------------------------------------");
+        // find the max salary, print the name of the employee(s) who have the max salary
+        int max = Integer.MIN_VALUE;
+        String name = "";
+
+        for (Map.Entry<String, Integer> entry : employeeMap.entrySet()) {
+                String eachName = entry.getKey();
+                Integer eachSalary = entry.getValue();
+                if(eachSalary > max){
+                    max = eachSalary;
+                    name = eachName;
+                }
+
+        }
+
+        System.out.println("max = " + max);
+        System.out.println("name = " + name);
 
 
 

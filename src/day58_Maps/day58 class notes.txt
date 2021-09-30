@@ -35,8 +35,12 @@ Map: Pairs of Data, accepts key & value
 
     	----------------------------------------
     	keySet(): returns all the keys from the map
-    	values():
-    	entrySet():
+    	values(): returns all the values from the map
+    	entrySet(): returns all the entry (key & value) of map 
+
+    			getKey()
+    			getValue()
+
 
 
 
