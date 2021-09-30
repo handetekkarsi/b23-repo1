@@ -30,6 +30,12 @@ public class TestEnum {
                 System.out.println("Chrome driver is selected");
         }
 
+        System.out.println("-------------------------------");
+
+   //     String level = "Java";
+
+        Level level = Level.Akbar;
+
 
     }
 
