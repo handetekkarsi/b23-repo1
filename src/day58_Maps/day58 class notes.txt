@@ -58,16 +58,29 @@ List of Maps:
 		List<Map<k, v>>
 
 
-Enums
 
+Enums: enumeration. a number of things
+
+	used for containing fixed set of constance
+
+	we need it if we need to take one out of small set of values
+
+
+	String browser = "Toilet Paper"
+	int numofMonth
+
+	Browsers: chrome, firefox, opera, edge, safari
+	Directions: East, West, South, North
+	Color: red, blue, yellow ....
+	NumberOfMonth: 1~12
+	Months: Jan ~ Dec
+	Days: Mon ~ Sun
+	Planet: Earth, Moon, Mars ...
+	Levels: Low, Medium, high, ChuckNorris
 
 String vs StringBuilder vs StringBuffer
 
 
-
-
-tomorrow:
-	Map of Maps
 
 
 
