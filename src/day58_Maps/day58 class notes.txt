@@ -1,7 +1,7 @@
 09/30/2021
 Topics: Map
 		Enum
-		StringBuilder & StringBuffer
+		String vs StringBuilder vs StringBuffer
 
 Package name: day58_Maps
 
@@ -15,16 +15,16 @@ Package name: day58_Maps
 Map (I): Pairs of Data, accepts key & value
 	 does not support primitives
 	 dynamic sized
-	 key can not be duplicated
+	 key can not be duplicated, values can be duplicated
 	 there is NO index
 
 	 HashMap (C): order is random. accepts null
 
 	 LinkedHashMap (C): keeps the insertion order. accepts null
 
-	 TreeMap (C): sorted order
+	 TreeMap (C): sorted order, does not accept null
 
-	 HashTable (C): is synchronized ==> thread-safe 
+	 HashTable (C): is synchronized ==> thread-safe , does not accept null
 
 
     Methods:
@@ -37,11 +37,14 @@ Map (I): Pairs of Data, accepts key & value
     	containsKey()
     	conatinsValue()
     	isEmpty()
+    	equals()
+
     	clear()
 
     	replace(key, new value)
 
     	----------------------------------------
+
     	keySet(): returns all the keys from the map
     	values(): returns all the values from the map
     	entrySet(): returns all the entry (key & value) of map 
@@ -51,5 +54,7 @@ Map (I): Pairs of Data, accepts key & value
 
 
 
+List of Maps
+		List<Map<k, v>>
 
 
