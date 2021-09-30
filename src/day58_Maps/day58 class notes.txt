@@ -4,3 +4,27 @@ Topics: Map
 		StringBuilder & StringBuffer
 
 Package name: day58_Maps
+
+3 data structures:
+	1. Array
+	2. Collection
+	3. Map
+
+
+
+Map: Pairs of Data, accepts key & value
+	 does not support primitives
+	 dynamic sized
+	 key can not be duplicated
+
+
+    Methods:
+    	put(key, Value): inserts the given key & value into the map
+
+    	get(key): returns the value of the given key
+
+    	remove(key)
+
+
+
+
