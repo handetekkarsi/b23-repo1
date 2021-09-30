@@ -6,6 +6,7 @@ import java.util.*;
 public class ListOfMaps2 {
 
     public static void main(String[] args) {
+
         String[] familyMember = {"John","Kevin","Lik"};
         LocalDate[] DOBFamilyMember = {LocalDate.of(1992,01,02),LocalDate.of(1993,01,03),LocalDate.of(1994,01,04)};
 
@@ -18,10 +19,23 @@ public class ListOfMaps2 {
 
         List<Map<String, LocalDate>> listOfMap = new ArrayList<>();
         listOfMap.addAll(Arrays.asList(
-                new HashMap<>(), // family members & their DoB
-                new HashMap<>(), // class mates & their DoB
-                new HashMap<>() /// friends & their DoB
+                new HashMap<>(), // add family members & their DoB
+                new HashMap<>(), // add class mates & their DoB
+                new HashMap<>() // add friends & their DoB
         ));
+
+        System.out.println("------------------------------------------");
+        // add family members & their DoB into the first Map of listOfMap
+
+        System.out.println("------------------------------------------");
+        // add class mates & their DoB into the second map of listOfMap
+
+        System.out.println("------------------------------------------");
+        // add friends & their DoB into the third map of listOfMap
+
+
+    // come back at 3:18 pm
+
 
 
 
