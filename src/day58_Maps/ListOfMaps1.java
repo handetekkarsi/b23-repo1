@@ -84,6 +84,27 @@ public class ListOfMaps1 {
         System.out.println("--------------------------------------------------");
         // print the names of developers
 
+        for (Map<String, String> map : employees) {
+            for (Map.Entry<String, String> entry : map.entrySet()) {
+                if(entry.getValue().equals("Developer")  ){
+                    System.out.println("Developer: "+entry.getKey());
+                }
+            }
+        }
+
+
+
+        System.out.println("--------------------------------------------------");
+        // print the names of Testers (SDET or Tester)
+
+        for (Map<String, String> map : employees) {
+            for (Map.Entry<String, String> entry : map.entrySet()) {
+                if(entry.getValue().equals("SDET")  || entry.getValue().equals("Tester") ){
+                    System.out.println("Tester: "+entry.getKey());
+                }
+            }
+        }
+
 
 
 
