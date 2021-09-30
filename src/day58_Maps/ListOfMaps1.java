@@ -40,18 +40,19 @@ public class ListOfMaps1 {
         scrum3.put("Farhad", "Tester");
         scrum3.put("Davut", "Tester");
         scrum3.put("Nasratullah", "Tester");
+        scrum3.put("Oz", "PO");
 
         Map<String, String> scrum4 = new LinkedHashMap<>();
-        scrum4.put("Matthew", "1");
-        scrum4.put("Komiljon", "2");
-        scrum4.put("Alina","3");
-        scrum4.put("Christina","4");
-        scrum4.put("Malika", "5");
-        scrum4.put("Metin", "6");
-        scrum4.put("Altynai","7");
-        scrum4.put("Rabia","8");
-        scrum4.put("Yelaman", "9");
-        scrum4.put("Altan", "10");
+        scrum4.put("Matthew", "PO");
+        scrum4.put("Komiljon", "SDET");
+        scrum4.put("Alina","SDET");
+        scrum4.put("Christina","Develepor");
+        scrum4.put("Malika", "Developer");
+        scrum4.put("Metin", "SM");
+        scrum4.put("Altynai","Sdet");
+        scrum4.put("Rabia","SDET");
+        scrum4.put("Yelaman", "Developer");
+        scrum4.put("Altan", "SM");
 
         Map<String, String> scrum5 = new LinkedHashMap<>();
         scrum5.put("Elza","SDET");
