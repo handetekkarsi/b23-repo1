@@ -36,6 +36,18 @@ public class TestEnum {
 
         Level level = Level.Akbar;
 
+        System.out.println("-------------------------------------");
+
+     //   String month = "Python";
+     //   byte a = 129;
+        Month month = Month.December;
+
+        System.out.println("----------------------------------------");
+
+        String color1 = "Pink";
+        Color color2 = Color.red;
+
+
 
     }
 
