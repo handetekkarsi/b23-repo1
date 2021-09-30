@@ -80,6 +80,14 @@ public class MapsPractice {
         classMates.put("Merve", LocalDate.of(1995,12,11));
         classMates.put("Tamara", LocalDate.of(1996,6,10));
 
+        for (Map.Entry<String, LocalDate> entry : classMates.entrySet()) {
+            if(entry.getValue().isBefore(LocalDate.of(1980,1, 1)) ){
+                System.out.println(entry.getKey());
+            }
+        }
+
+
+
 
 
     }
