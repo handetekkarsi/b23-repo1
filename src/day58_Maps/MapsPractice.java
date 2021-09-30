@@ -87,6 +87,20 @@ public class MapsPractice {
         }
 
 
+        System.out.println("----------------------------------------------------");
+
+        Map<String, String> countries = new LinkedHashMap<>();
+        countries.put("USA", "Washington DC");
+        countries.put("Canada", "Ottowa");
+        countries.put("Russia", "Moscow");
+        countries.put("The Czech Republic", "Prague");
+        countries.put("España", "Madrid");
+        countries.put("Germany", "Berlin");
+        countries.put("Turkey", "Ankara");
+
+        System.out.println(countries);
+
+
 
 
 
