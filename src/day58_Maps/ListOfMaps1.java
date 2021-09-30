@@ -33,7 +33,7 @@ public class ListOfMaps1 {
         Map<String, String> scrum3 = new LinkedHashMap<>();
         scrum3.put("Yuliang", "BA");
         scrum3.put("Oleg", "Developer");
-        scrum3.put("Ivan", "Developer");
+        scrum3.put("Ivan", "SM");
         scrum3.put("Andrei", "Developer");
         scrum3.put("Dontrell", "Developer");
         scrum3.put("Bakhtiyar", "Developer");
@@ -68,6 +68,23 @@ public class ListOfMaps1 {
 
         List<Map<String, String>> employees = new ArrayList<>();
         employees.addAll(  Arrays.asList(scrum1, scrum2, scrum3, scrum4, scrum5));
+
+        System.out.println("------------------------------------------------------");
+        // print the names of scrum masters:
+
+        for (Map<String, String> eachMap : employees) { // iterating the maps from the list of maps
+            for (Map.Entry<String, String> entry : eachMap.entrySet()) {
+                if(entry.getValue().equals("SM")  ){
+                    System.out.println("Scrum Master: "+entry.getKey());
+                }
+            }
+        }
+
+
+        System.out.println("--------------------------------------------------");
+        // print the names of developers
+
+
 
 
 
