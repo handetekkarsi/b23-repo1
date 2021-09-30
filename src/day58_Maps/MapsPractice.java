@@ -100,7 +100,15 @@ public class MapsPractice {
 
         System.out.println(countries);
 
+        for (String capitals : countries.values()) {
+            System.out.println(capitals);
+        }
 
+        System.out.println("---------------------------------------------");
+
+        for (String country : countries.keySet()) {
+            System.out.println(country);
+        }
 
 
 
