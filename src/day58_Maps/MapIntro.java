@@ -52,10 +52,25 @@ public class MapIntro {
         System.out.println(employeeMap);
 
         System.out.println("-----------------------------------------");
+        employeeMap.put("Abbos", 115000);
+        employeeMap.put("Yuliang", 120000);
+        employeeMap.put("Feruza", 125000);
+        employeeMap.put("Ahmet", 129000);
+        employeeMap.put("Ismail", 111000);
+        employeeMap.put("Zorana", 125000);
+        employeeMap.put("Mehmet", 130000);
+        employeeMap.put("Yuliia", 127005);
+        employeeMap.put("Yasin,", 130000);
+        employeeMap.put("Meltem", 121000);
+        employeeMap.put("Dilem", 150000);
+        employeeMap.put("Davut", 123000);
+        employeeMap.put("Ekaterina", 135000);
+        employeeMap.put("Mehmut", 143000);
+        employeeMap.put("Merve,", 122000);
+        employeeMap.put("Tamara", 133000);
 
-        for (String eachName : employeeMap.keySet()) {
-            System.out.println(eachName +" : "+employeeMap.get(eachName) );
-        }
+
+
 
 
 
