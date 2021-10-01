@@ -18,10 +18,10 @@ task 1:
 	        map.put("Steven", LocalDate.of(2017, 10, 2));
 	        ....
 
-        1. Display the names of the employee who were hired before 2015
-        2. display the name of the employee who were hired on 5/15/2020
-        3. How many people were hired after 2014?
-        4. display the name and hire date of the employee
+        1. Display the names of the employees who were hired before 2015 (entrySet())
+        2. display the name of the employee who were hired on 5/15/2020 (entrySet())
+        3. How many people were hired after 2014? (values())
+        4. display the name and hire date of the employee (keySet() & get())
 
 Task2:
 	Given:
@@ -49,6 +49,6 @@ Task2:
 
 
 
-        
+
 
 
