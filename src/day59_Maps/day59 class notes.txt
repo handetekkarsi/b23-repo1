@@ -44,7 +44,7 @@ Task2:
         employeeMap.put("Chuck", "M");
         employeeMap.put("Rickard", "M");
 
-        1. Update the 'M' to Male and 'F' to Female
+        1. Update the 'M' to Male and 'F' to Female (replace(k, newValue))
         2. Display the names of all female employees
 
 
