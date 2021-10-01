@@ -49,6 +49,12 @@ public class MapPractice1 {
 
         System.out.println("count = " + count);
 
+        System.out.println("------------------------------------------------");
+        // display the name and hire date of the employee (keySet() & get())
+
+        for (String k : map.keySet()) {
+            System.out.println(k +" : "+map.get(k));
+        }
 
 
 
