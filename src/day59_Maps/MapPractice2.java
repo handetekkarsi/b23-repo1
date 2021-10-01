@@ -26,9 +26,24 @@ public class MapPractice2 {
         employeeMap.put("Rickard", "M");
 
         for (Map.Entry<String, String> entry : employeeMap.entrySet()) {
-            
+            if(entry.getValue().equals("F")){
+                employeeMap.replace(entry.getKey(), "Female" );
+            }
+            if(entry.getValue().equals("M")){
+                employeeMap.replace(entry.getKey(), "Male" );
+            }
         }
-        
+
+        System.out.println("employeeMap = " + employeeMap);
+
+        System.out.println("--------------------------------------------");
+
+        for (String name : employeeMap.keySet()) {
+            String gender = employeeMap.get(name);
+            if(gender.equals("Female")){
+                System.out.println(name);
+            }
+        }
 
 
     }
