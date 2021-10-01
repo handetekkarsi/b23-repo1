@@ -78,13 +78,3 @@ Enums: enumeration. a number of things
 	Planet: Earth, Moon, Mars ...
 	Levels: Low, Medium, high, ChuckNorris
 
-String vs StringBuilder vs StringBuffer
-
-
-
-
-
-
-
-
-
