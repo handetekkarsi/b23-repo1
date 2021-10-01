@@ -40,6 +40,18 @@ public class CharSequences {
         StringBuilder sb5 = new StringBuilder("Cat");
         // between line 36 to line 40, there are five "Cat" objects created in heap
 
+        System.out.println("----------------------------------------");
+        new StringBuilder();
+        new StringBuffer();
+
+        String str = "Wooden Spoon";
+
+        StringBuffer stringBuffer = new StringBuffer(str);
+       // stringBuffer.append()
+        stringBuffer.reverse();
+
+        System.out.println(stringBuffer);
+
 
 
 

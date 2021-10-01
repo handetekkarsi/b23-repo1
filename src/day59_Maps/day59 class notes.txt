@@ -52,8 +52,8 @@ Task2:
 String vs StringBuilder vs StringBuffer: represents the char sequences
         
         String: immutable version of char sequences
-        StringBuilder: mutable version of char sequences
-        StringBuffer: mutable version of char sequences
+        StringBuilder: mutable version of char sequences, not synchronized
+        StringBuffer: mutable version of char sequences, is synchronized ==> thread-safe (slow)
 
 
 
