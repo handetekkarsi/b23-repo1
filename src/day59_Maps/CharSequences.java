@@ -30,6 +30,7 @@ public class CharSequences {
         String s3 = "Cat";
         String s4 = "Cat";
         String s5 = "Cat";
+        // between line 28 to line 32, there is only one "Cat" object created in String pool
 
         System.out.println("---------------------------------------");
         StringBuilder sb1 = new StringBuilder("Cat");
@@ -37,6 +38,7 @@ public class CharSequences {
         StringBuilder sb3 = new StringBuilder("Cat");
         StringBuilder sb4 = new StringBuilder("Cat");
         StringBuilder sb5 = new StringBuilder("Cat");
+        // between line 36 to line 40, there are five "Cat" objects created in heap
 
 
 
