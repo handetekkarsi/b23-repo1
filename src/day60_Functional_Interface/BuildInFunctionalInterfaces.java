@@ -117,6 +117,12 @@ public class BuildInFunctionalInterfaces {
         List<Integer> nums = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
         nums.forEach( (e)->{ if(e%2!=0) System.out.println(e); } );
 
+        /*
+        List<WebElements> elements = driver.findElements();
+        elements.forEach(p -> p.click() );
+
+         */
+
 
 
 
