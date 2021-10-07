@@ -112,6 +112,10 @@ public class BuildInFunctionalInterfaces {
         int[] arr = {10, 11, 9, 8, 7, 12, 3,4,5,6,1,100};
         printInDescendingOrder.accept(arr);
 
+        System.out.println("----------------------------------------------------");
+
+        List<Integer> nums = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        nums.forEach( (e)->{ if(e%2!=0) System.out.println(e); } );
 
 
 
