@@ -3,7 +3,6 @@ package day60_Functional_Interface;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class StreamPractice {
