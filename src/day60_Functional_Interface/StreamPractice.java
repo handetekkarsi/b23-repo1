@@ -53,9 +53,11 @@ public class StreamPractice {
 
         System.out.println("--------------------------------------");
         List<String> students = new ArrayList<>();
-        students.addAll( Arrays.asList("John Daniel", "Jimmy Jon", "James Bond", "Breanna King", "Shay King", "Josh Bryan") );
+        students.addAll( Arrays.asList("John Daniel", "Jimmy Jon", "James Bond", "Breanna King", "Shay King", "Josh Bryan", "John Daniel", "John Daniel", "John Daniel", "John Daniel") );
 
+        students = students.stream().distinct().map( p -> p.charAt(0)+"." +p.charAt(p.indexOf(" ")+1) ).collect(Collectors.toList());
 
+        System.out.println(students);
 
 
 
