@@ -7,6 +7,17 @@ package name: day60_Functional_Interface
 
 
 
+build in functional interfaces:
+		1. Predicate
+		2. Consumer
+		3. Function
+
+		4. BiPredicate
+		5. BiConsumer
+		6. BiFunction
+
+		
+
 
 
 
