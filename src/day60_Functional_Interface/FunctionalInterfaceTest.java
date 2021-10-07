@@ -1,5 +1,7 @@
 package day60_Functional_Interface;
 
+import java.util.List;
+
 public class FunctionalInterfaceTest {
 
     public static void main(String[] args) {
@@ -35,6 +37,7 @@ public class FunctionalInterfaceTest {
         System.out.println("result3 = " + result3);
 
 
+        System.out.println("------------------------------------------------");
 
 
 
