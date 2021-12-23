@@ -326,7 +326,7 @@ Java Boot Camp
 					Map
 					...
 
-					
+
 
 
 21. Abstract Class vs Interface:
@@ -338,16 +338,116 @@ Java Boot Camp
 
 
 
+22. OOP Polymorphism: ability of the object taking on many forms
+					 	
+				 	  parent class/interface being reference to child objects
+
+				 	  reference type decides what we can call
+
+				 	  object type decides which implementation to be executed
+
+
+
+				 	  WebDriver driver = new ChromeDriver();
+				 	  Map map = new HashMap()
+				 	  List list = new ArrayList();
+				 	  Set set = new HashSet();
+
+
+				 	  Driver:
+
+				 	  		WebDriver	get(){
+
+				 	  			return ChromeDriver;
+
+				 	  			return FireFoxDriver
+
+				 	  		}
+
+
+
+23. Reference Type Castings: There MUST be IS A relation
+
+			upcasting: casting smaller type to larger type. (done implicitly)
+
+				List list = new ArrayList();
+
+			downcasting: casting larger tpe to smaller type. (done explicitly)
+
+				List list = new ArrayList();
+
+				( (ArrayList)list )
+
+
+			WebDriver driver = new ChromeDriver();
+
+			( (ChromeDriver)driver ).takeScreenShoot()
+
+			( (TakeScreenShot)driver).takeScreenShoot()
+
+
+			driver instanceof FireFoxDriver ==> false
+			driver instanceof ChromeDriver ===> true
+
+
+
+24. Exceptions: checked & unchecked
+		
+		unchecked: occurs during the run time
+
+		checked: occurs during the compile time
+
+	throw: manually creating the exception
+
+
+25. Exception handlings:
+			
+		1. try & catch: blocks, can handle both checked & unchecked exception
+
+					try{
+						exceptioncode
+					}catch(ExceptionType e){
+						e.printStackTrace();
+					}
+
+
+
+		2. throws: can only handle checked exception.  in method signature.
+
+					caller of the method still need to handle the exception
+
+
+
+26. final vs finally vs finalize
+		
+		final: keyword, can be applied to class, methods, and variables
+
+		finally: block, can created with try&catch blocks. 
+
+		finalize: method, garbage collector calls this methods before destroyinng un referenced objects
 
 
 
 
 
+27. garbage collection: where all the unreferenced object goes to.
+		
+			unreferenced object:
+
+				1. assign null:
+
+						String str = "java"; // eligible for garbage collection
+							str = null;
+
+
+				2. reassign a new object
+
+					String str = "java"; // eligible for garbage collection
+					str = "Python";
 
 
 
-
-
+28. Collections:
 
 
 
