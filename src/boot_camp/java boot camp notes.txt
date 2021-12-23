@@ -447,7 +447,33 @@ Java Boot Camp
 
 
 
-28. Collections:
+28. Collections: Size is dynamic, ONLY supports non-primitives
+
+		List (I): accepts duplicates, has index
+
+			ArrayList (C): searching the element is faster. (get())
+
+			LinkedList (C): inserting and removing elements are faster. (add function & remove functions)
+
+			Vector (C): Slower, Synchronized ==> thread-safe
+
+			Stack (C): Slower, Synchronized ==> thread-safe. LIFO
+
+
+			findElements() ===> List<WebElement>
+			getOptions() =====> List<WebElement>
+
+
+		Set (I): does not accept duplicates, deos not have index
+
+			HashSet (C): fastest. order is not guaranted
+
+			LinkedHash (C): keeps the insertion order
+
+			TreeSet (C): ascending order
+
+
+			getWindowHandles()  ====> Set<String>
 
 
 
