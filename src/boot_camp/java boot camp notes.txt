@@ -151,17 +151,30 @@ Java Boot Camp
 
 
 
-12. Class & Object: class is a template of objects, specifies what object should contain.
-				
+12. Class & Object: class is a template of objects, where the objects came from, specifies what object should contain.
+					Object is instance of a class, each object has its own memory
+
+
+13. Static VS Instance: 
+			
+			instance: belongs to the object. there are multiple copies, each object has its own copy
+
+			static: belongs to the class. there is ONLY one copy for all the objects of the class
 
 
 
+14. Import Statements:
+		
+		regualr imports:
+
+			import package.class;
+			import package.*;
 
 
+		static imports: only imports static members
 
-
-
-
+			import static package.class.staticMember;
+			import static package.class.*;
 
 
 
