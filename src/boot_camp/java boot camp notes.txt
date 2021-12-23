@@ -177,9 +177,40 @@ Java Boot Camp
 			import static package.class.*;
 
 
+15. Access Modifiers:  private < default < protected < public
+
+		private: visible within the class only
+		default: visible within the same package
+		protected: visible within the same package, also visible outside package in subclass
+		public: Always visible
 
 
 
+16. OOP: Object Oreinted Programming
+		
+		code reusability
+		less duplication
+		less memory usage
+		centralized structure
+		easy to maintain
+
+
+	Encapsulation: data hiding by giving privtae access modifier
+
+					use public getter/setter to read/write the private data
+
+					Getter: Read ONLY
+							returns the value of the private data
+							no parameters
+
+					Setter: Write ONLY
+							returnType is void
+							passes a parameter
+
+
+		private double salary;
+
+				
 
 
 
