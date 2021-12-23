@@ -151,3 +151,22 @@ Java Boot Camp
 
 
 
+12. Class & Object: class is a template of objects, specifies what object should contain.
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
