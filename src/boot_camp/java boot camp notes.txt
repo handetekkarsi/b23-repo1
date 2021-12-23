@@ -208,9 +208,71 @@ Java Boot Camp
 							passes a parameter
 
 
-		private double salary;
+		in my framework I used encapsulation in POJO class ...
 
+
+17. OOP Inheritance: Building Parent & child (super/sub, IS A) relations between classes/interface
+		
+			 sub                super
+		Class X  extends  Class Y
+
+		Class Z extends Class Y
+
+
+		sub class: inherits all the visible variables & methods from super class
+
+		super class: can not inherit anything from sub class
 				
+
+		A class can only extend one class
+
+		A class can be extended by multiple classes
+
+
+		BasePage
+			public BasePage(){
+					PageFactory.InitElements( driver,  this);
+				}
+
+			LogInPage extends BasePage
+
+			HomePage extends BasePage
+
+			...
+
+
+
+		TestBase
+
+			@BeforeMethod{
+				Open Browser
+				Maximize Browser
+				Implicitwaait
+				navigateToURL
+
+			}
+
+
+			@AfterMethod{
+
+				close the browser
+
+				If test Failed:
+					screenshot, report....
+
+			}
+
+
+	   TestClass1 extends TestBase
+
+	   TestClass2 extends TestBase
+
+	   TestClass3 extends TestBase
+
+	   ....
+
+
+
 
 
 
