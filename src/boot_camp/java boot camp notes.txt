@@ -72,7 +72,25 @@ Java Boot Camp
 		StringBuffer: slower, synchronized ===> Thread-Safe
 
 
+6. Loops: repeating
+		
+		for loop: if the number of iteration is fixed
 
+					 int i = 0;        i < 10;		i++
+				for(initialization;  Conidition;  Iterator){
+							
+				}
+
+
+
+		while loop: if the number of iteration is NOT fixed
+
+				while(result.hasNext()){
+
+				}
+
+
+		do-while loop: at least gets executed once, even if the condition is false
 
 
 
