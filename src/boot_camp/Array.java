@@ -29,6 +29,20 @@ public class Array {
         System.out.println(Arrays.toString(reversed));
 
 
+        System.out.println("-------------------------------------------");
+
+        int[][] arr2D =  { {100, 200, 300, 400, 500}, {1,2,3,4,5}  };
+
+        System.out.println("----------------------------------");
+
+        String[] array = {"A", "B", "C", "D"};
+
+        for(String  each  : array ){
+            System.out.println(each);
+        }
+
+
+
 
 
     }

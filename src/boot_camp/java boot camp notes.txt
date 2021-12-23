@@ -97,8 +97,23 @@ Java Boot Camp
 		 supports both primitives & non-primitives
 		 can be multi-dimensional
 
-		 
 
+8. for each loop: there must be a data structure
+				  Iteration order is fixed
+
+				  for(DataType  name  : Data Structure){
+
+				  }
+
+
+9. Custom Methods:  Function. Grouping the code fragements to perform a task
+				
+				improves the reusability of our codes
+
+			declare:
+				AM  Specifier  ReturnType  MethodName(Parameter){
+						Code Fragments;
+				}
 
 
 
