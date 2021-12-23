@@ -272,6 +272,86 @@ Java Boot Camp
 	   ....
 
 
+18. Method Overriding: giving different implementations to the methods
+					   
+					   MUST happen in subclass
+					   Method name, parameters, returnType MUST be same
+					   Access modifier need to be same or more visible
+
+					   we can not override: final, static, private methods
+
+
+19. Final keyword: unchangable
+		
+		variables: can not be reassigned
+
+		methods: can not be overriden
+
+		class: can not inherited
+
+
+20. OOP Abstraction: hiding the implementation and details
+					
+					put the focus on essentials, not worry about the details
+
+					Abstract method: does not have implementation. without the body
+									 meant to be overriden ( can not be final, static, private).
+
+				2 ways:
+					
+					1. Abstract class: meant to be parent class (can not be final)
+
+										can not create objects. 
+
+										methods: All the methods + abstract methods
+
+										variables: All the variables
+
+
+					2. Interface: blueprint of the class, provides the additional methods the classes need.
+								  meant to be implemented (can not be final)
+
+								  public is the ONLY access modifier
+
+								  methods: default methods, static methods, abstract methods
+
+								  variables: static & final by default
+
+
+					TakeScreenShot
+					JavaScriptExecuter
+					WebDriver
+					...
+
+
+21. Abstract Class vs Interface:
+				
+				one class can extend one abstract class
+				one class can implement multiple interfaces
+				one interface can extend multiple interfaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
