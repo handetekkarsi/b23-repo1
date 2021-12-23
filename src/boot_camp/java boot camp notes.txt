@@ -147,4 +147,7 @@ Java Boot Camp
 				@FindBy
 
 
+			HomePage extends Basepage
+
+
 
