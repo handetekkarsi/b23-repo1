@@ -1,5 +1,7 @@
 package boot_camp;
 
+import java.util.Arrays;
+
 public class CustomMethods {
 
 
@@ -10,6 +12,9 @@ public class CustomMethods {
         String result = reverse(str);
 
         System.out.println(result);
+
+      //  "".substr
+     //   Arrays.sort()
 
 
     }

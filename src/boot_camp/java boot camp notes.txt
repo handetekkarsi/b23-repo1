@@ -116,5 +116,35 @@ Java Boot Camp
 				}
 
 
+10. Method Overloading: multiple methods sharing the same method name
+						Method name must be same, parameters MUST be different
+
+
+11. Constructor: Special Methods. Name MUST be same with class name
+				used for creating the objects of the class
+
+				execution depdends on the object
+
+				
+
+				Declare:
+					AM  ClassName(Parameter){
+						Codes;
+					}
+
+
+				object:
+					new Constructor()
+
+
+			BasePage:
+
+				public BasePage(){
+					PageFactory.InitElements( driver,  this);
+				}
+
+
+				@FindBy
+
 
 
