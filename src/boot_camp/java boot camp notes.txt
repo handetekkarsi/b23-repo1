@@ -78,7 +78,7 @@ Java Boot Camp
 
 					 int i = 0;        i < 10;		i++
 				for(initialization;  Conidition;  Iterator){
-							
+
 				}
 
 
@@ -93,6 +93,11 @@ Java Boot Camp
 		do-while loop: at least gets executed once, even if the condition is false
 
 
+7. Array: size is fixed. fast
+		 supports both primitives & non-primitives
+		 can be multi-dimensional
+
+		 
 
 
 
