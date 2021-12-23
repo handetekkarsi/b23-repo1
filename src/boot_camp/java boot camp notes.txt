@@ -53,4 +53,30 @@ Java Boot Camp
 				byte y = (byte)x;
 
 
+3. Wrapper Classes: the objects type of the primitives. 
+		
+		Byte, Short, Integer, Long, Float, Double, Character, Boolean
+
+		autoboxing: promitive to object
+		unboxing: object to primitive
+
+
+4. String: Immutable version of char sequences
+		
+		substring(), charAt(), lowerCase&upperCase(),  replace(), contains(), equals()...
+
+5. StringBuilder & StringBuffer: mutable version of char sequences
+
+		StringBuilder: not Synchronized
+
+		StringBuffer: slower, synchronized ===> Thread-Safe
+
+
+
+
+
+
+
+
+
 
