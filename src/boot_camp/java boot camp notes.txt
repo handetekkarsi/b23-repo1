@@ -321,7 +321,12 @@ Java Boot Camp
 					TakeScreenShot
 					JavaScriptExecuter
 					WebDriver
+					List
+					Set
+					Map
 					...
+
+					
 
 
 21. Abstract Class vs Interface:
