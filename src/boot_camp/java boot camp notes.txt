@@ -478,9 +478,21 @@ Java Boot Camp
 
 
 
+30. Maps:  Key & Value, key can not be duplicated, value can be duplicated. only support non-primitives
+		
+		HashMap (C): Fastest. accepts null, order is not guaranteed.
+
+		LinkedHashMap (C): accepts null, keeps the insertion order
+
+		HashTable (C): does not accept null, is synchronized
+
+		TreeMap (C): does not accept null, ascending order
 
 
+	POJO..
+	properties file
 
+	
 
 
 
